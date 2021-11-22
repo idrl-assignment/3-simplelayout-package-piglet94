@@ -7,7 +7,7 @@ setuptools.setup(
     name="simplelayoutpiglet94",
     version="0.0.1",
     author="piglet94",
-    author_email="author@example.com",
+    author_email="715654107@qq.com",
     description="A small study package",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -22,8 +22,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(include=['src', 'src.*']),
     python_requires=">=3.6",
     install_requires=['numpy','argparse','matplotlib','scipy','os'],
-    entry_points={'console_scripts': ['simplelayout=simplelayout:main',],},
+    entry_points={'console_scripts': ['simplelayout=simplelayout:main',],}
 )

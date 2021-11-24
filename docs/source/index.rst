@@ -10,7 +10,7 @@ Welcome to simplelayoutpiglet94's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   newpage.md
 
 Indices and tables
 ==================
